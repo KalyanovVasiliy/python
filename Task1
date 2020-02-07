@@ -1,0 +1,2 @@
+my_list = [12, 'az', 16.9]
+print(type(my_list))
