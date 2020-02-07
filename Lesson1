@@ -1,0 +1,50 @@
+'''
+# Задание 1
+a = 2
+b = 3
+print(a,b)
+
+c = int(input('Введите число: '))
+d = input('Введите имя: ')
+print(d, a, b, c)
+'''
+'''
+# Задание 2
+kr = int(input('Введите время в секундах: '))
+if kr < 60:
+    print (00, 00, kr)
+elif
+    int(n=(kr/60) < 60
+    print (00, %d(n), {n.2f})
+#if n <60
+#print (00.n.{n.2f}.format)
+
+    # Не разобрался. В формате ч:м:с ругается на :
+    '''
+'''
+# Задание 3
+n = input('Введите число: ')
+y = n+n
+z = y+n
+summ = (int(n)+ int(y) + int(z))
+print (summ)
+'''
+'''
+# Задание 4
+n = int(input('Введите число: '))
+# Как разделить число на цифры?
+'''
+'''
+# Задание 5
+income = int(input('Введите сумму выручки: '))
+cost = int(input('Введите сумму затрат: '))
+value = income - cost
+if value <= 0:
+    print ('У вас отрицательный финрез')
+elif value > 0:
+    rov = value/income
+    print ('У вас положительный результат! Рентабельность составила:', rov)
+    human = int(input('А сколько человек работает?: '))
+    v_person = value/human
+    print ('Прибыль на одного сотрудника составила:', v_person)
+    '''
