@@ -48,3 +48,4 @@ elif value > 0:
     v_person = value/human
     print ('Прибыль на одного сотрудника составила:', v_person)
     '''
+    '''
