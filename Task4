@@ -1,0 +1,6 @@
+my_str = input('Введите два слова через пробел: ')
+my_list = my_str.split(' ')
+num1 = 1
+num2 = 2
+print (num1, my_list[0])
+print (num2, my_list[1])

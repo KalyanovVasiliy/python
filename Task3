@@ -1,0 +1,14 @@
+# Решение через список
+month_1 = ['12', '1', '2']
+month_2 = ['3', '4', '5']
+month_3 = ['6', '7', '8']
+month_4 = ['9', '10', '11']
+number = (input('введите чило месяца: '))
+if number in month_1:
+    print ('Это зима')
+elif number in month_2:
+    print ('Это весна')
+elif number in month_3:
+    print ('Это лето')
+else:
+    print ('Это осень')

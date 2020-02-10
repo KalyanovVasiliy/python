@@ -1,0 +1,10 @@
+my_list = list(input('Введите переменные без пробелов и знаков препинания: '))
+print (my_list)
+a = my_list[0:2]
+a.reverse()
+print (a)
+b = my_list[2:]
+b.reverse()
+print (b)
+my_list= (a+b)
+print (my_list)
