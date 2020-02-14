@@ -1,0 +1,10 @@
+def slesher (a, b):
+    return a/b
+number1 = int(input('Insert number1: '))
+number2 = int(input('Insert number2: '))
+if number2 <= 0:
+  print ('Ноль вводить нельзя')
+  number2 = int(input('Insert number2: '))
+else:
+  pass
+print (slesher(number1, number2))

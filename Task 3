@@ -1,0 +1,18 @@
+# Сначала не правильно прочитал задание и сложил наибольшее и наименьшее
+def my_func (var1, var2, var3):
+    num1 = max (var1, var2, var3)
+    num2 = min (var1, var2, var3)
+    print(num1 + num2)
+my_func (3, 5, 9)
+
+# Сложение двух наибольших
+def my_func (var1, var2, var3):
+    num1 = max (var1, var2, var3)
+    for i in (var1, var2, var3):
+        if i < num1:
+            if i != min(var1, var2, var3):
+                num2 = i
+            else:
+                num2 = i # Это защита от ошибки в случае двух минимальных значений
+    print(num1 + num2)
+my_func (1, 1, 3)

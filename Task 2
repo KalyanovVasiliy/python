@@ -1,0 +1,10 @@
+def bio (name, **kwargs):
+    return (f' Имя = {name}, Фамилия={surname}, Год рождения = {year}, Город = {city}, e-mail = {mail}')
+name= input('Insert name: ')
+mail = input('Insert mail: ')
+surname = input('Insert surname: ')
+year = int(input('Insert birth year: '))
+city = input('Insert birth city: ')
+
+
+print (bio (name))
