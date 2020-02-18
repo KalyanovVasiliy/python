@@ -1,0 +1,2 @@
+numbers = (10, 10, 2, 3, 4 , 5, 5)
+print ([el for el in set (numbers)])
