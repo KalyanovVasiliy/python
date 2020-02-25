@@ -1,0 +1,7 @@
+class Road:
+    _length = int(input('Длина: '))
+    _width = int(input('Ширина: '))
+    def formula (self):
+        print (_width+_length+self)
+uch = Road
+print (uch._length)
